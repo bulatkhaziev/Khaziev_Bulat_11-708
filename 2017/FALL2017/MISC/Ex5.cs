@@ -18,12 +18,13 @@ namespace ConsoleApp
                 i,
                 j,
                 margin,
-                widthBlock;
+                widthBlock,
+                maxWidth = triangleHeight * 2 - 1;
 
             for(i = 1; i <= triangleHeight; i++)
             {
-                margin = ((triangleHeight * 2 - 1) - (i * 2 - 1)) / 2;
-                widthBlock = (triangleHeight * 2 - 1) - margin * 2;
+                margin = (maxWidth - (i * 2 - 1)) / 2;
+                widthBlock = maxWidth - margin * 2;
 
                 for (j = 0; j < margin; j++)
                     Console.Write(" ");
