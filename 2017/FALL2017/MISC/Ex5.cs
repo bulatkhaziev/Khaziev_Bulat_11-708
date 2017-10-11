@@ -25,19 +25,20 @@ namespace ConsoleApp
             {
                 margin = (maxWidth - (i * 2 - 1)) / 2;
                 widthBlock = maxWidth - margin * 2;
-
-                for (j = 0; j < margin; j++)
-                    Console.Write(" ");
                 
-                for (j = 0; j < widthBlock; j++)
-                    Console.Write("^");
-
-                for (j = 0; j < margin; j++)
-                    Console.Write(" ");
+                WriteChar(" ", margin);
+                WriteChar("^", widthBlock);
+                WriteChar(" ", margin);
 
                 Console.Write("\n");
             }
             Console.ReadKey();
+        }
+        
+        public static void WriteChar(char chr, int count)
+        {
+            for(int i = 0; i < count; i++)
+                Console.Write(chr);
         }
     }
 }
