@@ -1,0 +1,6 @@
+c:\users\булат\source\repos\ConsoleApp5\Solver\bin\Debug\Solver.dll
+c:\users\булат\source\repos\ConsoleApp5\Solver\bin\Debug\Solver.pdb
+c:\users\булат\source\repos\ConsoleApp5\Solver\obj\Debug\Solver.csprojResolveAssemblyReference.cache
+c:\users\булат\source\repos\ConsoleApp5\Solver\obj\Debug\Solver.csproj.CoreCompileInputs.cache
+c:\users\булат\source\repos\ConsoleApp5\Solver\obj\Debug\Solver.dll
+c:\users\булат\source\repos\ConsoleApp5\Solver\obj\Debug\Solver.pdb
