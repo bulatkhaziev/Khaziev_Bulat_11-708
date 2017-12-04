@@ -18,6 +18,7 @@ namespace ConsoleApp
                 tempValue = 0,
                 countValues = 0;
 
+	    // без массива нельзя было, просто вывести результат?
             int[] resultValue = new int[inputValue.ToString().Length]; // Массив для записи итогового числа.
             string[] changedValues = new string[6] {"A", "B", "C", "D", "E", "F"};
 
