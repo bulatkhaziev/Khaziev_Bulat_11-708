@@ -12,6 +12,7 @@ namespace Solver
 
             while (Math.Abs(currentElement) > epsilon)
             {
+				// ---check--- аналогично - неоптимально вы считаете
                 currentElement = GetRowSequenceElement(a, ++step, x);
                 sumOfRow += currentElement;
             }

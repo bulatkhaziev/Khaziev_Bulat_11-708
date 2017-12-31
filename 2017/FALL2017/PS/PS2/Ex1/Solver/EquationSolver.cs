@@ -12,6 +12,7 @@ namespace Solver
 
             while (currentElement > epsilon)
             {
+				// ---check---неоптимально пересчитывать всё с начала на каждом шаге, надо использовать предыдущие вычисленные результаты
                 currentElement = GetRowSequenceElement(a, ++step, x);
                 sumOfRow += currentElement;
             }

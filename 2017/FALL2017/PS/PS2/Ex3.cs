@@ -20,6 +20,7 @@ namespace ConsoleApp6
 
             do
             {
+				// ---check--- тоже неоптимальное решение
                 currentElement = GetRowSequenceElement(countOfSteps++);
                 approximentValue += currentElement;
             }
